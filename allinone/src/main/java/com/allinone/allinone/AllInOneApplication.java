@@ -1,0 +1,12 @@
+package com.allinone.allinone;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AllInOneApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(AllInOneApplication.class, args);
+        System.out.println("🚀 AllInOne Spring Boot Application Started Successfully!");
+    }
+}
